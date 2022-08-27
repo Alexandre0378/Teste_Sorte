@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8c52bb265d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Sorteador.css">
+    <title>Página de Sorteio</title>
+</head>
+<body>
+    <div id="divGanhador"><div id="ganhador"></div></div>
+    <div id="divSorteio">
+        <h1 id="palavra" data-text="Sorteio">Sorteio</h1>
+        <div id="inputSorteio"> 
+            <h2 style="grid-area: a3; text-align: center;">Coloque o nome do participante</h2>
+            <input type="text" placeholder="Nome do Participante" maxlength="30" >
+            <button id="btn-add">Adicionar</button>
+        </div>
+        <div id="erro" style="color:red; text-shadow: 1px 1px 2px red; padding: 10px;"></div>
+        <div id="divParticipantes">
+            
+        </div>
+        <div id="length"></div>
+        <button id="btn">Sortear</button>
+    </div>
+</body>
+<script src="Sorteador.js"></script>
+</html>
